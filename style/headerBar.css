@@ -1,0 +1,88 @@
+.headerBar{
+    width: 100%;
+    height: 54px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+}
+.headerBarSize{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 935px;
+    height: 100%;
+}
+@media (max-width:935px) {
+    .headerBarSize{
+        margin: 0px 22px;
+    }
+}
+/* left icons */
+.headerBarSize .homeIcons{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.headerBarSize .homeIcons ion-icon{
+    font-size: 22px;
+}
+.headerBarSize .homeIcons div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22px;
+    width: 21px;
+}
+.headerBarSize .homeIcons div hr{
+    border: #DBDBDB solid 1px;
+    height: 100%;
+}
+.headerBarSize .homeIcons img{
+    height: 29px;
+    width: 103px;
+}
+/* input */
+.instagramInput input{
+    width: 215px;
+    height: 28px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+}
+/**/
+.rightIcons{
+    display: flex;
+    align-items: center;
+}
+.rightIcons ion-icon{
+    font-size: 22px;
+    margin-left: 24px;
+}
+/**/
+@media (max-width:614px) {
+    .headerBarSize .homeIcons div hr{
+        display: none;
+    }
+    .headerBarSize .homeIcons img{
+        position: absolute;
+        left: calc(50% - 51.5px);
+    }
+    /**/
+    .instagramInput input{
+        display: none;
+    }
+    /**/
+    .rightIcons ion-icon{
+        display: none;
+    }
+    .rightIcons ion-icon:first-child{
+        display: initial;
+    }
+}

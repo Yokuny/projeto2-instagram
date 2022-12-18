@@ -1,0 +1,32 @@
+.mainContentGrid{
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: 1fr 614px 293px 1fr;
+    grid-template-areas: ". mainContent sideBar .";
+    gap: 29px;
+}
+@media (max-width:614px) {
+    .mainContentGrid{
+        margin-top: 0px;
+    }
+}
+.mainContentGrid .mainContent{
+    grid-area: mainContent;
+    background-color: blueviolet;
+}
+.mainContentGrid .sideBar{
+    grid-area: sideBar;
+    background-color: yellow;
+}
+
+@media (max-width:935px) {
+    .mainContentGrid{
+        display: grid;
+        grid-template-columns: 1fr 614px 1fr;
+        grid-template-areas: ". mainContent .";
+        gap: 0px;
+    }
+    .mainContentGrid .sideBar{
+        display: none;
+    }
+}
