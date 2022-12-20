@@ -1,5 +1,6 @@
 .feed{
     margin-top: 24px;
+    margin-bottom: 60px;
 }
 .postCard{
     border: 1px solid #DBDBDB;
@@ -7,7 +8,7 @@
     margin-bottom: 60px;
     width: 100%;
     height: 749px;
-}
+}/**/
 .postCardHeader{
     height: 60px;
     margin: 0px 17px;
@@ -39,4 +40,40 @@
    width: 612px; 
    height: 612px;
    background-image: url(../src/stories_background.jpg);
+}/**/
+.postCardFooter{
+    width: 100%;
+    height: 71px;
+    padding: 13px 17px 15px 17px;
+    box-sizing: border-box;
+}
+.postCardButtons{
+    display: flex;
+    justify-content: space-between;
+}
+.postCardButtons ion-icon{
+    font-size: 18px;
+}/**/
+.postCardLikes{
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.postCardLikes img{
+    width: 20px;
+    height: 20px;
+}
+.postCardLikes p{
+    margin-left: 4px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px
+}
+.postCardLikes h4{
+    margin-left: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;    
+    cursor: pointer;
 }
