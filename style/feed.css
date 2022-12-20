@@ -39,7 +39,11 @@
 .postContent{
    width: 612px; 
    height: 612px;
-   background-image: url(../src/stories_background.jpg);
+}
+.postContent video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }/**/
 .postCardFooter{
     width: 100%;
@@ -76,4 +80,4 @@
     font-weight: 500;
     line-height: 16.41px;    
     cursor: pointer;
-}
+}/**/
