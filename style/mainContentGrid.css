@@ -16,7 +16,7 @@
 .mainContentGrid .sideBar{
     grid-area: sideBar;
 }
-@media (max-width:983px) {
+@media (max-width:976px) {
     .mainContentGrid{
         display: grid;
         grid-template-columns: 1fr 614px 1fr;

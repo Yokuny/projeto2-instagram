@@ -1,4 +1,4 @@
-const storiesField = document.getElementById("storiesSize");
+/*const storiesField = document.getElementById("storiesSize");
 const instagramStoryCircle = document.createElement("img");
 instagramStoryCircle.src = "./src/stories_background.jpg";
 const storieAvatarPicture = document.createElement("img");
