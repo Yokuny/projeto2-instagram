@@ -1,3 +1,6 @@
+/*Side Bar*/
+
+
 /* Feed */
 #userPostImg1{
     background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/5745313.547c4922bbfc3.jpg);
@@ -11,6 +14,13 @@
     background-size: auto 100%;
     background-position: center;
 }
+#likeImgUser1{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d0457c66498239.5b17ff88a50f9.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    border-radius: 16px;
+}
 #userPostImg2{
     background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/6c9e0c4221799.5c293f9a0dc01.jpg);
     background-repeat: no-repeat;
@@ -23,6 +33,13 @@
     background-size: auto 100%;
     background-position: center;
 }
+#likeImgUser2{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/5745313.547c4922bbfc3.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    border-radius: 16px;
+}
 #userPostImg3{
     background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/2d894426022365.619283f11a919.jpg);
     background-repeat: no-repeat;
@@ -34,4 +51,11 @@
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
+}
+#likeImgUser3{
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/028/075/249/large/yury-ostapchuk-train-scene-07-scale-shot-warm.jpg?1593427044);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    border-radius: 16px;
 }

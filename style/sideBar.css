@@ -26,6 +26,7 @@
     cursor: pointer;
 }
 .profileCard div p{
+    margin-top: 4px;
     font-weight: 300;
     font-size: 14px;
     line-height: 16.41px;

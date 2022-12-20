@@ -6,6 +6,11 @@
     border: 1px solid #DBDBDB;
     border-radius: 3px;
 }
+@media (max-width:614px) {
+    .stories{
+        background-color: #fafafa;
+    }
+}
 .stories #storiesSize{
     height: 100%;
     width: calc(100% - 18px);

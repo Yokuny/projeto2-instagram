@@ -2,6 +2,11 @@
     margin-top: 24px;
     margin-bottom: 60px;
 }
+@media (max-width:614px) {
+    .feed{
+        margin-top: 0px;
+    }
+}
 .postCard{
     border: 1px solid #DBDBDB;
     border-radius: 3px;
@@ -25,20 +30,28 @@
     width: 32px;
     border-radius: 16px;
     margin-right: 15px;
+    cursor: pointer;
 }
 .postOwnerName h4{
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     color: #262626;
+    cursor: pointer;
 }
 .postCardHeader ion-icon{
     height: 16px;
     width: 16px;
+    cursor: pointer;
 }/*post*/
 .postContent{
    width: 612px; 
    height: 612px;
+}
+@media (max-width:614px) {
+    .postContent{
+        width: 100%;
+     }
 }
 .postContent video{
     height: 100%;
@@ -55,8 +68,12 @@
     display: flex;
     justify-content: space-between;
 }
+.postCardButtons div:nth-child(1) ion-icon{
+    margin-right: 16px;
+}
 .postCardButtons ion-icon{
     font-size: 18px;
+    cursor: pointer;
 }/**/
 .postCardLikes{
     margin-top: 12px;
