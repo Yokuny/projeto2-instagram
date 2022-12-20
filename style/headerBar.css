@@ -16,8 +16,7 @@
     .headerBarSize{
         margin: 0px 22px;
     }
-}
-/* left icons */
+}/* left icons */
 .headerBarSize .homeIcons{
     height: 100%;
     display: flex;
@@ -40,8 +39,7 @@
 .headerBarSize .homeIcons img{
     height: 29px;
     width: 103px;
-}
-/* input */
+}/* input */
 .instagramInput input{
     width: 215px;
     height: 28px;
@@ -55,8 +53,7 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.1px;
-}
-/**/
+}/**/
 .rightIcons{
     display: flex;
     align-items: center;
@@ -64,8 +61,7 @@
 .rightIcons ion-icon{
     font-size: 22px;
     margin-left: 24px;
-}
-/**/
+}/**/
 @media (max-width:614px) {
     .headerBarSize .homeIcons div hr{
         display: none;
@@ -73,12 +69,10 @@
     .headerBarSize .homeIcons img{
         position: absolute;
         left: calc(50% - 51.5px);
-    }
-    /**/
+    }/**/
     .instagramInput input{
         display: none;
-    }
-    /**/
+    }/**/
     .rightIcons ion-icon{
         display: none;
     }

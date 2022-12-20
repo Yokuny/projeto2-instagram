@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>instagram</title>
+    <link rel="shortcut icon" href="./src/tab-icon.png" type="image/x-icon">
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/headerBar.css">
     <link rel="stylesheet" href="./style/mainContentGrid.css">
+    <link rel="stylesheet" href="./style/stories.css">
+    <link rel="stylesheet" href="./style/sideBar.css">
 </head>
 <body>
     <!--HeaderBar-->
@@ -31,9 +35,30 @@
     </div>
     <!--Instagram Content-->
     <main class="mainContentGrid">
-        <div class="sideBar"> b</div>
-        <div class="mainContent">a</div>
+        <!--side bar-->
+        <div class="sideBar">
+            <div class="profileCard">
+                <img src="./src/tab-icon.png" alt="">
+                <div>
+                    <h4>@yokuny</h4>
+                    <p>Felipe Rangel Ribeiro</p>
+                </div>
+            </div>
+            <div class="sugestões">
+                <h4>Sugestões para você</h4>
+                <h4>Ver tudo</h4>
+            </div>
+        </div>
+        <div class="mainContent">
+            <!--story-->
+            <div class="stories">
+                <div id="storiesSize">
+
+                </div>
+            </div>
+            <!--feed-->
+        </div>
     </main>
 </body>
-<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<script src="stories.js"></script>
 </html>

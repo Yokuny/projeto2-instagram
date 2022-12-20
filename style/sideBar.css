@@ -1,0 +1,48 @@
+.sideBar{
+    margin-top: 18px;
+    width: 100%;
+}/**/
+.profileCard{
+    display: flex;
+    align-items: center;
+}
+.profileCard img{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin-right: 17px;
+}
+.profileCard div{
+    width: 182px;
+}
+.profileCard div h4{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 16.41px;
+    color: #262626;
+}
+.profileCard div p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #8E8E8E;
+}/**/
+.sugestões{
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sugestões h4:nth-child(1){
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+}
+.sugestões h4:nth-child(2){
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #262626;
+}

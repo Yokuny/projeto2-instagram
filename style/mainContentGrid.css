@@ -12,13 +12,10 @@
 }
 .mainContentGrid .mainContent{
     grid-area: mainContent;
-    background-color: blueviolet;
 }
 .mainContentGrid .sideBar{
     grid-area: sideBar;
-    background-color: yellow;
 }
-
 @media (max-width:935px) {
     .mainContentGrid{
         display: grid;
