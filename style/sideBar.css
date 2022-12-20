@@ -1,4 +1,5 @@
 .sideBar{
+    position: sticky;
     margin-top: 18px;
     width: 100%;
 }/**/
@@ -11,6 +12,7 @@
     height: 56px;
     border-radius: 28px;
     margin-right: 17px;
+    cursor: pointer;
 }
 .profileCard div{
     width: 182px;
@@ -21,6 +23,7 @@
     letter-spacing: 0.4px;
     line-height: 16.41px;
     color: #262626;
+    cursor: pointer;
 }
 .profileCard div p{
     font-weight: 300;
@@ -35,14 +38,82 @@
     justify-content: space-between;
 }
 .sugestões h4:nth-child(1){
-    font-weight: 500;
+    font-weight: 700;
     font-size: 12px;
     line-height: 14px;
     color: #8E8E8E;
 }
 .sugestões h4:nth-child(2){
-    font-weight: 500;
+    font-weight: 700;
     font-size: 12px;
     line-height: 14px;
     color: #262626;
+    cursor: pointer;
+}/**/
+.usuariosSugeridos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.usuarioSugeridoCard{
+    margin-top: 17px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.usuarioSugeridoCard h4{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #139EF2;
+    cursor: pointer;
+}
+.sugestãoCardContent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sugestãoCardContent div img{
+    margin-right: 11px;
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.sugestãoCardContent div h4{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+.sugestãoCardContent div p{
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+}/**/
+.instagramTermos{
+    margin-top: 33px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+}
+.instagramTermos a{
+    text-decoration: none;
+    color: #C7C7C7;
+    cursor: pointer;
+}
+.copywriter{
+    width: 100%;
+}
+.copywriter p{
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
 }
