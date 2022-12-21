@@ -1,5 +1,7 @@
 .sideBar{
     position: sticky;
+    top: 107px;
+    height: calc(100vh - 107px);
     margin-top: 18px;
     width: 100%;
 }/**/

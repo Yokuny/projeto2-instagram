@@ -1,3 +1,40 @@
+#myUserPicture{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/89f32d10362213.5f8a195127eab.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+#hint1{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/e3cf59477416239.625318fa4601d.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+#hint2{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/6cc4b1538516969.62f233b7232aa.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+#hint3{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/97c9b65661281.61d0c71d98780.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+#hint4{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/31da11500298631.6222242d7bdd2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+#hint5{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/user/115/b1c52e7018233.5de934f41c2d6.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+/**/
 #storyImg1{
     background-image: url(https://photos.enjoei.com.br/public/255x255/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9jYXJkX2xpc3RfaXRlbXMvMjE4ODU3NDIvOGJkNTAzZWMyNmVlYWRhOWYxODQ0MGQyOGFhZWM3Y2EuSlBH);
     background-repeat: no-repeat;
