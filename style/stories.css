@@ -31,13 +31,14 @@
 #storiesSize div img:nth-child(1){
     width: 66px;
     height: 66px;
+    border-radius: 30px;
 }
 #storiesSize div img:nth-child(2){
     position: absolute;
-    top: 5px;
+    top: 4.8px;
     width: 56px;
     height: 56px;
-    border-radius: 30px;
+    border-radius: 26px;
 }
 #storiesSize div p{
     margin-top: 1px;
