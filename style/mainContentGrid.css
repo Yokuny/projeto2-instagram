@@ -1,7 +1,7 @@
 .mainContentGrid{
     margin-top: calc(54px + 34px);
     display: grid;
-    grid-template-columns: 1fr 614px 293px 1fr;
+    grid-template-columns: 1fr min(614px,100vw) 293px 1fr;
     grid-template-areas: ". mainContent sideBar .";
     gap: 29px;
 }
@@ -19,8 +19,7 @@
 }
 @media (max-width:976px) {
     .mainContentGrid{
-        display: grid;
-        grid-template-columns: 1fr 614px 1fr;
+        grid-template-columns: 1fr min(614px,100vw) 1fr;
         grid-template-areas: ". mainContent .";
         gap: 0px;
     }
