@@ -10,10 +10,19 @@
 .postCard{
     border: 1px solid #DBDBDB;
     border-radius: 3px;
-    margin-bottom: 60px;
+    margin-bottom:60px;
     width: 100%;
-    height: 749px;
-}/**/
+    height: min(749px, auto);
+}
+@media (max-width:530px) {
+    .postCard{
+        margin-bottom:18px;
+    }
+    .feed{
+    margin-bottom: 18px;
+    }
+}
+/**/
 .postCardHeader{
     height: 60px;
     margin: 0px 17px;
@@ -45,16 +54,17 @@
     cursor: pointer;
 }/*post*/
 .postContent{
-   width: 612px; 
-   height: 612px;
+   width: min(612px, 100%); 
+   height: min(612px, 100vw);
 }
-@media (max-width:614px) {
-    .postContent{
-        width: 100%;
-     }
+.postContent img{
+    width: min(612px, 100%); 
+    height: min(612px, 100vw);
+    object-fit: cover;
+    object-position: center;
 }
 .postContent video{
-    height: 100%;
+    height: min(100%, 100vw);
     width: 100%;
     object-fit: cover;
 }/**/
