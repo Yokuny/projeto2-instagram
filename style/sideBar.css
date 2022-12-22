@@ -25,7 +25,6 @@
     letter-spacing: 0.4px;
     line-height: 16.41px;
     color: #262626;
-    cursor: pointer;
 }
 .profileCard div p{
     margin-top: 4px;
@@ -51,7 +50,6 @@
     font-size: 12px;
     line-height: 14px;
     color: #262626;
-    cursor: pointer;
 }/**/
 .usuariosSugeridos{
     width: 100%;
@@ -70,7 +68,6 @@
     font-size: 12px;
     line-height: 14px;
     color: #139EF2;
-    cursor: pointer;
 }
 .sugestãoCardContent{
     width: 100%;

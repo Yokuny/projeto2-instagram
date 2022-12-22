@@ -45,7 +45,6 @@
     font-size: 14px;
     line-height: 16px;
     color: #262626;
-    cursor: pointer;
 }
 .postCardHeader ion-icon{
     height: 16px;
@@ -67,7 +66,7 @@
     object-fit: cover;
 }/**/
 .postCardFooter{
-    height: 76px;
+    height: auto;
     padding: 12px 17px 16px 17px;
     box-sizing: border-box;
 }
@@ -114,6 +113,53 @@
     margin-left: 4px;
     font-size: 14px;
     font-weight: 500;
-    line-height: 16.41px;    
-    cursor: pointer;
-}/**/
+    line-height: 16.41px;
+}/*comments*/
+.comments{
+    margin-top: 12px;
+}
+.comments .postDescription h4{
+    margin-right: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    display: inline;
+}
+.comments .postDescription p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    display: inline;
+}
+.commentInput{
+    border-top: 1px solid #DBDBDB;
+    padding-top: 12px;
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.commentInput ion-icon{
+    height: 20px;
+    width: 20px;
+}
+.commentInput input{
+    width: min(80%, 65vw);
+    border: transparent;
+    height: 20px;
+}
+.commentInput input:focus{
+    border: hidden;
+    outline: 0;
+}
+.commentInput h4{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B2DFFC;
+    transition: color 300ms;
+}
+.commentInput h4:hover{
+    color: #0095F6;
+}

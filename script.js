@@ -12,3 +12,6 @@ function salvar(id){
     bookmarkFeito.src = "./src/bookmark-svgrepo-com.svg";
     bookmarkVazio.append(bookmarkFeito);
 }
+function comentar(id){
+    
+}

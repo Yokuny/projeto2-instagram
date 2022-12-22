@@ -23,6 +23,9 @@ time, mark, audio, video {
 	BlinkMacSystemFont,'Segoe UI', Roboto, Oxygen, Ubuntu,
 	Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+h4:hover{
+    cursor: pointer;
+}
 ion-icon:hover{
     color: rgba(0, 0, 0, 0.6);
     cursor: pointer;
