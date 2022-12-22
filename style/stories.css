@@ -34,6 +34,11 @@
     font-size: 26px;
     color: white;
 }
+@media (max-width:614px) {
+    .floatingStorieButton{
+        display: none;
+    }
+}
 .stories #storiesSize{
     height: 100%;
     width: calc(100% - 18px);
