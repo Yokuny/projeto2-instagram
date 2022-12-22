@@ -1,0 +1,26 @@
+.mobileFooter{
+    display: none;
+}
+@media (max-width:614px) {
+    .mobileFooter{
+        display: flex;
+        position: fixed;
+        align-items: center;
+        bottom: 0;
+        width: 100vw;
+        height: 54px;
+        box-sizing: border-box;
+        padding: 0px 20px;
+        background: white;
+        border: 1px solid #DBDBDB;
+    }
+}
+.mobileFooterSize{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mobileFooterSize ion-icon{
+    height: 22px;
+    width: 22px;
+}

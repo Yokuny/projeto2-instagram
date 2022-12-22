@@ -28,7 +28,6 @@
 }
 .headerBarSize .homeIcons ion-icon{
     font-size: 22px;
-    cursor: pointer;
 }
 .headerBarSize .homeIcons div{
     display: flex;
@@ -68,7 +67,6 @@
 .rightIcons ion-icon{
     font-size: 22px;
     margin-left: 24px;
-    cursor: pointer;
 }/**/
 @media (max-width:614px) {
     .headerBarSize .homeIcons div hr{

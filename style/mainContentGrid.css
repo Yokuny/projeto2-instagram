@@ -22,6 +22,7 @@
         grid-template-columns: 1fr min(614px,100vw) 1fr;
         grid-template-areas: ". mainContent .";
         gap: 0px;
+        margin-bottom: calc(54px - 18px);
     }
     .mainContentGrid .sideBar{
         display: none;

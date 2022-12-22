@@ -14,10 +14,11 @@
     <link rel="stylesheet" href="./style/sideBar.css">
     <link rel="stylesheet" href="./style/feed.css">
     <link rel="stylesheet" href="./style/imagens.css">
+    <link rel="stylesheet" href="./style/mobileFooter.css">
 </head>
 <body>
     <!--HeaderBar-->
-    <div class="headerBar">
+    <header class="headerBar">
         <div class="headerBarSize">
             <div class="homeIcons">
                 <ion-icon name="logo-instagram"></ion-icon>
@@ -34,7 +35,7 @@
                 <ion-icon name="person-outline"></ion-icon>
             </div>
         </div>
-    </div>
+    </header>
     <!--Instagram Content-->
     <main class="mainContentGrid">
         <!--side bar-->
@@ -122,9 +123,9 @@
             </div>
         </div>
         <!---->
-        <div class="mainContent">
+        <main class="mainContent">
             <!--story-->
-            <div class="stories">
+            <nav class="stories">
                 <div id="storiesSize">
                     <div>
                         <div>
@@ -183,124 +184,137 @@
                         <p>lu_ferreira</p>
                     </div>
                 </div>
-            </div>
+            </nav>
             <!--feed-->
-            <div class="feed">
-                <div class="postCard">
-                    <div class="postCardHeader">
-                        <div class="postOwnerName">
-                            <img alt="" id="userPostImg1">
-                            <h4>_tanki_x</h4>
+            <main>
+                <section class="feed">
+                    <div class="postCard">
+                        <div class="postCardHeader">
+                            <div class="postOwnerName">
+                                <img alt="" id="userPostImg1">
+                                <h4>_tanki_x</h4>
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
                         </div>
-                        <ion-icon name="ellipsis-horizontal"></ion-icon>
-                    </div>
-                    <!--post-->
-                    <div class="postContent">
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/bf2b5751890757.58fde1c257711.jpg" alt="">
-                    </div>
-                    <!--footer-->
-                    <div class="postCardFooter">
-                        <div class="postCardButtons">
-                            <div>
-                                <div id="h35f" onclick="coracao(this.id)">
-                                    <ion-icon name="heart-outline" ></ion-icon>
-                                </div>
+                        <!--post-->
+                        <div class="postContent">
+                            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/bf2b5751890757.58fde1c257711.jpg" alt="">
+                        </div>
+                        <!--footer-->
+                        <div class="postCardFooter">
+                            <div class="postCardButtons">
                                 <div>
-                                    <ion-icon name="chatbubble-outline"></ion-icon>
+                                    <div id="h35f" onclick="coracao(this.id)">
+                                        <ion-icon name="heart-outline" ></ion-icon>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="chatbubble-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="paper-plane-outline"></ion-icon>
+                                    </div>
                                 </div>
-                                <div>
-                                    <ion-icon name="paper-plane-outline"></ion-icon>
+                                <div class="bookMark" id="nyyn53" onclick="salvar(this.id)">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
                                 </div>
                             </div>
-                            <div class="bookMark" id="nyyn53" onclick="salvar(this.id)">
-                                <ion-icon name="bookmark-outline"></ion-icon>
+                            <div class="postCardLikes">
+                                <img id="likeImgUser1">
+                                <p>Curtido por</p><h4>_raskolnikov</h4><p>e</p><h4> outras 16 pessoas</h4></p>
                             </div>
-                        </div>
-                        <div class="postCardLikes">
-                            <img id="likeImgUser1">
-                            <p>Curtido por</p><h4>_raskolnikov</h4><p>e</p><h4> outras 16 pessoas</h4></p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="feed">
-                <div class="postCard">
-                    <div class="postCardHeader">
-                        <div class="postOwnerName">
-                            <img id="userPostImg2" alt="">
-                            <h4>yury.ostapchuk</h4>
+    
+                <section class="feed">
+                    <div class="postCard">
+                        <div class="postCardHeader">
+                            <div class="postOwnerName">
+                                <img id="userPostImg2" alt="">
+                                <h4>yury.ostapchuk</h4>
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
                         </div>
-                        <ion-icon name="ellipsis-horizontal"></ion-icon>
-                    </div>
-                    <!--post-->
-                    <div class="postContent">
-                        <video loop muted autoplay src="https://cdn-animation.artstation.com/p/video_sources/000/085/015/ship-360-02.mp4"></video>
-                    </div>
-                    <!--footer-->
-                    <div class="postCardFooter">
-                        <div class="postCardButtons">
-                            <div>
-                                <div id="f4xx" onclick="coracao(this.id)">
-                                    <ion-icon name="heart-outline" ></ion-icon>
-                                </div>
+                        <!--post-->
+                        <div class="postContent">
+                            <video loop muted autoplay src="https://cdn-animation.artstation.com/p/video_sources/000/085/015/ship-360-02.mp4"></video>
+                        </div>
+                        <!--footer-->
+                        <div class="postCardFooter">
+                            <div class="postCardButtons">
                                 <div>
-                                    <ion-icon name="chatbubble-outline"></ion-icon>
+                                    <div id="f4xx" onclick="coracao(this.id)">
+                                        <ion-icon name="heart-outline" ></ion-icon>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="chatbubble-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="paper-plane-outline"></ion-icon>
+                                    </div>
                                 </div>
-                                <div>
-                                    <ion-icon name="paper-plane-outline"></ion-icon>
+                                <div class="bookMark" id="g3gh" onclick="salvar(this.id)">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
                                 </div>
                             </div>
-                            <div class="bookMark" id="g3gh" onclick="salvar(this.id)">
-                                <ion-icon name="bookmark-outline"></ion-icon>
+                            <div class="postCardLikes">
+                                <img id="likeImgUser2">
+                                <p>Curtido por</p><h4>yokuny</h4><p>e</p><h4> outras 702 pessoas</h4></p>
                             </div>
                         </div>
-                        <div class="postCardLikes">
-                            <img id="likeImgUser2">
-                            <p>Curtido por</p><h4>yokuny</h4><p>e</p><h4> outras 702 pessoas</h4></p>
+                    </div>
+                </section>
+    
+                <section class="feed">
+                    <div class="postCard">
+                        <div class="postCardHeader">
+                            <div class="postOwnerName">
+                                <img id="userPostImg3" alt="">
+                                <h4>tanki x</h4>
+                            </div>
+                            <ion-icon name="ellipsis-horizontal"></ion-icon>
+                        </div>
+                        <!--post-->
+                        <div class="postContent">
+                            <img src="https://cdnb.artstation.com/p/assets/images/images/028/075/249/large/yury-ostapchuk-train-scene-07-scale-shot-warm.jpg?1593427044" alt="">
+                            
+                        </div>
+                        <!--footer-->
+                        <div class="postCardFooter">
+                            <div class="postCardButtons">
+                                <div>
+                                    <div id="j46j" onclick="coracao(this.id)">
+                                        <ion-icon name="heart-outline" ></ion-icon>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="chatbubble-outline"></ion-icon>
+                                    </div>
+                                    <div>
+                                        <ion-icon name="paper-plane-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                <div class="bookMark" id="hj6kk" onclick="salvar(this.id)">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="postCardLikes">
+                                <img id="likeImgUser3">
+                                <p>Curtido por</p><h4>fake.avatar</h4><p>e</p><h4> outras 10.542 pessoas</h4></p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="feed">
-                <div class="postCard">
-                    <div class="postCardHeader">
-                        <div class="postOwnerName">
-                            <img id="userPostImg3" alt="">
-                            <h4>tanki x</h4>
-                        </div>
-                        <ion-icon name="ellipsis-horizontal"></ion-icon>
-                    </div>
-                    <!--post-->
-                    <div class="postContent">
-                        <img src="https://cdnb.artstation.com/p/assets/images/images/028/075/249/large/yury-ostapchuk-train-scene-07-scale-shot-warm.jpg?1593427044" alt="">
-                        
-                    </div>
-                    <!--footer-->
-                    <div class="postCardFooter">
-                        <div class="postCardButtons">
-                            <div>
-                                <div id="j46j" onclick="coracao(this.id)">
-                                    <ion-icon name="heart-outline" ></ion-icon>
-                                </div>
-                                <div>
-                                    <ion-icon name="chatbubble-outline"></ion-icon>
-                                </div>
-                                <div>
-                                    <ion-icon name="paper-plane-outline"></ion-icon>
-                                </div>
-                            </div>
-                            <div class="bookMark" id="hj6kk" onclick="salvar(this.id)">
-                                <ion-icon name="bookmark-outline"></ion-icon>
-                            </div>
-                        </div>
-                        <div class="postCardLikes">
-                            <img id="likeImgUser3">
-                            <p>Curtido por</p><h4>fake.avatar</h4><p>e</p><h4> outras 10.542 pessoas</h4></p>
-                        </div>
-                    </div>
+            </main>
+            <!--mobile footer-->
+            <footer class="mobileFooter">
+                <div class="mobileFooterSize">
+                    <ion-icon name="home"></ion-icon>
+                    <ion-icon name="search"></ion-icon>
+                    <ion-icon name="add-circle-outline"></ion-icon>
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon name="person-outline"></ion-icon>
                 </div>
-            </div>
+            </footer>
         </div>
     </main>
 </body>
