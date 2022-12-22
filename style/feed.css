@@ -117,6 +117,8 @@
 }/*comments*/
 .comments{
     margin-top: 12px;
+    display: flex;
+    flex-direction: column;
 }
 .comments .postDescription h4{
     margin-right: 4px;
@@ -130,7 +132,35 @@
     font-weight: 300;
     line-height: 16.41px;
     display: inline;
+}/**/
+.newComment{
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
 }
+.theComment{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.theComment h4{
+    margin-right: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    display: inline;
+}
+.theComment p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
+    display: inline;
+}
+.theComment ion-icon{
+    height: 16px;
+    width: 16px;
+}/**/
 .commentInput{
     border-top: 1px solid #DBDBDB;
     padding-top: 12px;
@@ -148,6 +178,9 @@
     width: min(80%, 65vw);
     border: transparent;
     height: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.41px;
 }
 .commentInput input:focus{
     border: hidden;
