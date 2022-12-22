@@ -114,6 +114,7 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 16.41px;
+    
 }/*comments*/
 .comments{
     margin-top: 12px;
@@ -123,7 +124,7 @@
 .comments .postDescription h4{
     margin-right: 4px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 16.41px;
     display: inline;
 }
@@ -147,7 +148,7 @@
 .theComment h4{
     margin-right: 4px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 16.41px;
     display: inline;
 }
